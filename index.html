@@ -55,11 +55,13 @@
     </div>
 
     <!-- About Section -->
-    <section id="about">
-      <!-- User Introduction-->
-      <div class="user-details">
-        <h1>ABOUT ME</h1>
-        <picture>
+   <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">ABOUT ME</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <picture>
           <source
             type="image/webp"
             srcset="./assets/img/webp/Professional-Picture-Me.webp"
@@ -74,18 +76,25 @@
             style="border-radius: 50%"
           />
         </picture>
-        <p>
-          I am a junior in the College of Information and Computer Sciences at the University of Massachusetts Amherst,
-          pursuing an undergraduate degree. I am majoring in Computer Science, with intent to double major in
-          Mathematics with Statistics and Data Science concentration. I'm involved as a Software Developer for BUILD
-          UMass, where I use my software engineering skills for pro-bono app/web development and tech consulting for the
-          Amherst community. I also serve as a Designer for the HackUMass Organizing Team, responsible for graphics
-          design and production for the annual hackathon. I am interested in exploring the fields of Software
-          Engineering, Data Science, and Machine Learning, and I am open to opportunities for the same.
-        </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                This is where you can describe about yourself. The more you
+                describe about yourself, the more chances you have!
+              </p>
+              <p class="about-wrapper__info-text">
+                Extra Information about you! like hobbies and your goals.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
 
       <!-- User Specifics -->
+      <section id="tech"> 
       <div class="user">
         <!-- Technology Stack #1: Languages -->
         <div class="tech">
